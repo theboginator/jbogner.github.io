@@ -1,12 +1,5 @@
-<html>
-<head>
-    <title> C602/C606 Parts Diagram </title>
-    <style></style>
-</head>
-</html>
-<img src="basemap.png" width="2048" height="1200" border="0" usemap="#basemap.map" />
+<img src="basemap.png" width="2048" height="1200" border="0" usemap="#map" />
 
-<body>
 <map name="map">
     <!-- #$-:Image map file created by GIMP Image Map plug-in -->
     <!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
@@ -32,5 +25,3 @@
     <area shape="poly" coords="833,873,874,850,876,862,874,885,886,895,904,890,911,877,909,868,898,857,885,840,908,826,904,699,832,744" alt="Condenser Air Filter"  nohref="nohref" />
     <area shape="poly" coords="508,1064,578,1112,608,1074,551,1053,548,1023,531,1023,505,1040" alt="Front Caster w/Brake"  nohref="nohref" />
 </map>
-
-</body>
