@@ -6,6 +6,18 @@
     <title>Jacob Bogner</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+        /* CSS rules for tablets */
+        @media only screen and (min-width:721px) and (max-width:960px)
+        {
+            .desktop {display:none;}
+            .phone {display:none;}
+        }
+        /* CSS rules for desktops */
+        @media only screen and (min-width:961px)
+        {
+            .tablet {display:none;}
+            .phone {display:none;}
+        }
         h1{
             color:white;
             font-family:"Arial",Arial,sans-serif;
@@ -62,7 +74,8 @@
     <ul class = "icons">
         <ul class = "fa-ul">
             <li><i class="fa-li fa fa-check-square"></i><a href="aboutMe.html"> About Me </a></li>
-            <li><i class="fa-li fa fa-refresh fa-spin"><a href="resume.html"></a></i>Resume</li>
+            <li><i class="fa-li fa fa-refresh fa-spin"></i><a href="resume.html">Resume</a></li>
+            <li><i class="fa-li fa fa-refresh fa-spin"></i><a href="https://www.linkedin.com/in/jacob-bogner-62812ba6/">LinkedIn</a></li>
         </ul>
     </ul>
 </div>
