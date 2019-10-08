@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jacob Bogner</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        h1{
+            color:white;
+            font-family:"Arial",Arial,sans-serif;
+
+        }
+        h3{
+            color:white;
+            font-family:"Arial",Arial,sans-serif;
+
+        }
+        li{
+            color:white;
+            font-family:"Arial",Arial,sans-serif;
+
+        }
+        .mainText{
+            position:fixed;
+            margin-left:45%;
+            margin-top:25%;
+        }
+        .icons{
+            position:fixed;
+            right:10%;
+            top:10%;
+        }
+        .backGround{
+            position:fixed;
+            width:100%;
+            height:100vh;
+            z-index:-1000;
+            top:0;
+            left:0;
+        }
+    </style>
 </head>
 <body>
 
-<div class="centerDiv">
+<div class="mainText">
 
     <h1>
 
@@ -21,10 +56,19 @@
     </h3>
 
 </div>
-<div class="noMargin">
+<div class="backGround">
     <video id="Background" autoplay="" muted="" loop="" src="background.mp4" type="video/mp4" >
     </video>
 </div>
-
+<div>
+    <ul class = "icons">
+        <ul class = "fa-ul">
+            <li><li><i class="fa-li fa fa-check-square"></i>About Me</li>
+            <li><i class="fa-li fa fa-refresh fa-spin"></i>Resume</li>
+            <li><i class="fa-li fa fa-circle-o-notch fa-spin"></i>Hobbies</li>
+            <li><i class="fa-li fa fa-spinner fa-spin"></i>Work</li>
+        </ul>
+    </ul>
+</div>
 </body>
 </html>
